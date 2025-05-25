@@ -28,9 +28,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Apenas estrutura (você pode implementar estatísticas depois)
         btnEstatisticas.setOnClickListener(v -> {
-            // startActivity(new Intent(MainActivity.this, EstatisticasActivity.class));
+          
         });
     }
 }
